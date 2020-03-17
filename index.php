@@ -24,7 +24,7 @@
                 <?php
 
                     include 'DB/database.php';      // to make login database
-                    $DB = new Database(DB_DATABASE);    // choice this db not any db
+                    $DB = new Database(DB_DATABASE);   
                     $insert = $DB->insert();
                 
                 ?>
